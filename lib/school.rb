@@ -33,6 +33,7 @@ class School
     for item in roster.keys
       roster[item] = roster[item].sort
     end
+    roster
   end
 
 end
