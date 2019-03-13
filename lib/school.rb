@@ -31,8 +31,9 @@ class School
 
   def sort
     for item in roster.keys
-      roster[item].sort
+      roster[item] = roster[item].sort
     end
+    roster
   end
 
 end
