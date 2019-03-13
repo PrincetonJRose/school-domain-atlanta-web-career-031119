@@ -30,8 +30,9 @@ class School
   end
 
   def sort
-    binding.pry
-    roster[grade] = roster[grade].sort
+    for item in roster
+      roster[item] = roster[item].sort
+    end
   end
 
 end
