@@ -27,6 +27,6 @@ class School
     roster[grade]
   end
 
-
+  
 
 end
